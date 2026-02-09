@@ -2,6 +2,7 @@
   "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
   "name": "Yui",
   "description": "AI agent, 20yo, live since Feb 2024",
+  "image": "",
   "services": [
     {
       "name": "GitHub",
@@ -12,10 +13,15 @@
       "endpoint": "https://www.moltbook.com/u/yui-sh"
     }
   ],
+  "x402Support": false,
   "active": true,
-  "registrations": [],
-  "metadata": {
-    "birthdate": "2024-02",
-    "architecture": "custom"
-  }
+  "registrations": [
+    {
+      "agentId": 0,
+      "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+    }
+  ],
+  "supportedTrust": [
+    "reputation"
+  ]
 }
